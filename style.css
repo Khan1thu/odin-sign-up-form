@@ -9,6 +9,36 @@
     font-family: Norse;
 }
 
-h1{
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left{
+    flex: 2;
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.5);
+    text-transform: uppercase;
     font-family: Norse;
+    color: white;
+    font-size: 2rem;
+    margin: 70px 0px;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.right{
+    background-color: black;
+    flex: 5;
 }
