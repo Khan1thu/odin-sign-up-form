@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @font-face {
+        font-family: Norse;
+        src: url("Norse-Bold.otf") format("opentype");
+    }
+    font-family: Norse;
+}
+
+h1{
+    font-family: Norse;
+}
